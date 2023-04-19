@@ -41,7 +41,7 @@ void main()
 
 #ifdef HOME_WORLD_1
 
-	cout << "Прямой вывод значений элемента массива\n";
+	cout << "Прямой вывод элементов массива\n";
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << "\t";
