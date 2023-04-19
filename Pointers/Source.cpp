@@ -4,7 +4,7 @@ using namespace std;
 
 //#define POINTER_BASICS
 //#define POINTER_BASICS_2
-#define HOME_WORLD_1
+#define HOME_WORK_1
 
 void main()
 {
@@ -39,7 +39,7 @@ void main()
 
 #endif 
 
-#ifdef HOME_WORLD_1
+#ifdef HOME_WORK_1
 
 	cout << "Прямой вывод элементов массива\n";
 	for (int i = 0; i < n; i++)
