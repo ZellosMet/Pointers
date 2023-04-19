@@ -10,9 +10,8 @@ void main()
 
 	int a = 2, b = 3;
 	cout << a << "\t" << b << endl;
-	Exchange(a, b);
+	Exchange(a,b);
 	cout << a << "\t" << b << endl;
-
 }
 
 void Exchange(int a, int b)
@@ -20,5 +19,4 @@ void Exchange(int a, int b)
 	int buf = a;
 	a = b;
 	b = buf;
-
 }
