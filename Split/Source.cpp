@@ -70,11 +70,13 @@ void Element_Sorting(int base_arr[], const int size, int even_arr[], int odd_arr
 	{
 		if (base_arr[i] % 2 == 0)
 		{
-			even_arr[j] = base_arr[i]; j++;
+			even_arr[j] = base_arr[i]; 
+			j++;
 		}
 		else
 		{
-			odd_arr[k] = base_arr[i]; k++;
+			odd_arr[k] = base_arr[i]; 
+			k++;
 		}
 	}
 }
