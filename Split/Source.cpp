@@ -1,5 +1,5 @@
 ﻿#include<iostream>
-#include<time.h>
+#include<ctime>
 using namespace std;
 
 void FillRand(int arr[], const int size); //Функция заполнения массива
