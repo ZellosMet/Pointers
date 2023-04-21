@@ -65,18 +65,9 @@ void Size_Calc(int arr[], const int size, int &reven, int &rodd)
 
 void Element_Sorting(int base_arr[], const int size, int even_arr[], int odd_arr[])
 {
-	int j = 0, k = 0;
-	for (int i = 0; i < size; i++)
+	for (int i = 0, j=0, k=0; i < size; i++)
 	{
-		if (base_arr[i] % 2 == 0)
-		{
-			even_arr[j] = base_arr[i]; 
-			j++;
-		}
-		else
-		{
-			odd_arr[k] = base_arr[i]; 
-			k++;
-		}
+		if (base_arr[i] % 2 == 0) even_arr[j++] = base_arr[i];
+		else odd_arr[k++] = base_arr[i];
 	}
 }
