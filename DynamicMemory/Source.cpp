@@ -100,7 +100,7 @@ void Insert(int *&arr, int &n)
 
 void PopFront(int*& arr, int& n)
 {
-	cout << "Был удалён первый элемент\n";
+	cout << "Был удалён первый элемент \n";
 	int* buffer = new int[--n];
 	for (int i = 0; i < n; i++)
 	{
