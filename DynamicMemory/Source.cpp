@@ -10,15 +10,10 @@ void PopFront(int *&arr, int &n);
 void PopBack(int *&arr, int &n);
 void Erase(int *&arr, int &n);
 
-#define Lesson
-#define HomeWork
-
-
 void main()
 {
 	setlocale(LC_ALL, "ru");
 
-#ifdef Lesson
 	int n;
 	int& rn = n;
 	cout << "¬ведите размер массива: "; cin >> n;
@@ -40,15 +35,6 @@ void main()
 	//Print(arr, n);
 
 	delete[] arr;
-#endif
-
-#ifdef HomeWork
-
-
-
-
-#endif // HomeWork
-
 }
 
 void FillRand(int arr[], const int n)
