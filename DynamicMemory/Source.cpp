@@ -27,9 +27,9 @@ void main()
 	Print(arr, n);
 	Insert(arr, rn);
 	Print(arr, n);
-	PopBack(arr, rn);
-	Print(arr, n);
 	PopFront(arr, rn);
+	Print(arr, n);
+	PopBack(arr, rn);
 	Print(arr, n);
 	Erase(arr, rn);
 	Print(arr, n);
@@ -49,7 +49,7 @@ void Print(int arr[], const int n)
 {
 	for (int i = 0; i < n; i++)
 	{
-		cout << "[ " << arr[i] << " ]" << "\t";
+		cout << "[ " << arr[i] << " ]" << "  ";
 	}
 	cout << endl;
 }
@@ -90,16 +90,17 @@ void Insert(int *&arr, int &n)
 	int* buffer = new int[++n];
 	for (int i = 0; i < n; i++)
 	{
-		if(i > ins_element) buffer[i] = arr[i-1];
+		if(i > ins_element-1) buffer[i] = arr[i-1];
 		else buffer[i] = arr[i];
 	}
 	delete[] arr;
 	arr = buffer;
-	arr[ins_element] = value;
+	arr[ins_element-1] = value;
 }
 
 void PopFront(int*& arr, int& n)
 {
+	cout << "Был удалён первый элемент\n";
 	int* buffer = new int[--n];
 	for (int i = 0; i < n; i++)
 	{
@@ -111,6 +112,7 @@ void PopFront(int*& arr, int& n)
 
 void PopBack(int *&arr, int &n)
 {
+	cout << "Был удалён последний элемент\n";
 	int* buffer = new int[--n];
 	for (int i = 0; i < n; i++)
 	{
@@ -123,11 +125,11 @@ void PopBack(int *&arr, int &n)
 void Erase(int*& arr, int& n)
 {
 	int ers_element;
-	cout << "Введите порядковый номер элемента для добавления: "; cin >> ers_element;
+	cout << "Введите порядковый номер элемента для удаления: "; cin >> ers_element;
 	int* buffer = new int[--n];
 	for (int i = 0; i < n; i++)
 	{
-		if (i > ers_element) 
+		if (i >= ers_element-1) 
 		buffer[i] = arr[i+1];
 		else buffer[i] = arr[i];
 	}
