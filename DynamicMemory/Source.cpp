@@ -20,9 +20,7 @@ void main()
 {
 	setlocale(LC_ALL, "ru");
 
-	int n, control, step = 1, local_cursor=0;
-	bool ext = true;
-	int &rn = n;
+	int n, control, step = 1, local_cursor=0, &rn = n;
 	cout << "¬ведите размер массива: "; cin >> n;
 	int* arr = new int[n];
 	int* cursor = new int[n] {};
@@ -42,8 +40,8 @@ void main()
 		{
 		case MOVE_RIGHT: (local_cursor+step <= n-1 ? local_cursor = local_cursor + step : local_cursor = n-1); Print(arr, cursor, n, local_cursor, step); break;
 		case MOVE_LEFT: (local_cursor-step >= 0 ? local_cursor = local_cursor - step : local_cursor = 0); Print(arr, cursor, n, local_cursor, step); break;
-		case ADD: Insert(arr, n, local_cursor); Print(arr, cursor, n, local_cursor, step); ext = false; break;
-		case REMOVE: Erase(arr, n, local_cursor); Print(arr, cursor, n, local_cursor, step); ext = false; break;
+		case ADD: Insert(arr, n, local_cursor); Print(arr, cursor, n, local_cursor, step); break;
+		case REMOVE: Erase(arr, n, local_cursor); Print(arr, cursor, n, local_cursor, step); break;
 		}
 	} while (control != ESC);
 
