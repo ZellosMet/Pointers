@@ -21,18 +21,18 @@ void main()
 
 	FillRand(arr, n);
 	Print(arr, n);
-	//PushFront(arr, rn);
-	//Print(arr, n);
-	//PushBack(arr, rn);
-	//Print(arr, n);
-	//Insert(arr, rn);
-	//Print(arr, n);
-	//PopBack(arr, rn);
-	//Print(arr, n);
-	//PopFront(arr, rn);
-	//Print(arr, n);
-	//Erase(arr, rn);
-	//Print(arr, n);
+	PushFront(arr, rn);
+	Print(arr, n);
+	PushBack(arr, rn);
+	Print(arr, n);
+	Insert(arr, rn);
+	Print(arr, n);
+	PopBack(arr, rn);
+	Print(arr, n);
+	PopFront(arr, rn);
+	Print(arr, n);
+	Erase(arr, rn);
+	Print(arr, n);
 
 	delete[] arr;
 }
@@ -53,7 +53,6 @@ void Print(int arr[], const int n)
 	}
 	cout << endl;
 }
-
 
 void PushFront(int *&arr, int &n)
 {
