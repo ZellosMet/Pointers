@@ -30,8 +30,8 @@ void main()
 	//Print(arr, n);
 	//PushBack(arr, rn);
 	//Print(arr, n);
-	Insert(arr, rn);
-	Print(arr, n);
+	//Insert(arr, rn);
+	//Print(arr, n);
 	//PopBack(arr, rn);
 	//Print(arr, n);
 	//PopFront(arr, rn);
