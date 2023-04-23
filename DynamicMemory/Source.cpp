@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<conio.h>
 #include<windows.h>
 using namespace std;
@@ -21,7 +21,7 @@ void main()
 	setlocale(LC_ALL, "ru");
 
 	int n, control, step = 1, local_cursor=0, &rn = n;
-	cout << "Ââåäèòå ðàçìåð ìàññèâà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°: "; cin >> n;
 	int* arr = new int[n];
 	int* cursor = new int[n] {};
 
@@ -60,10 +60,10 @@ void FillRand(int arr[], const int n)
 void Print(int arr[], int cursor[], const int n, int lc_crs, int step)
 {
 	system("cls");
-	cout << "ÓÏÐÀÂËÅÍÈÅ: Êóðñîðîì, ñ ïîìîùüþ ñòðåëî÷åê, âûáèðàåòñÿ ýëåìåíò. Øàã äâèæåíèÿ êóðñîðà ðåãóëèðóåòñÿ íàæàòèåì êëàâèø 1-9.\n";
-	cout << "Äîáàâëåíèå ýëåìåíòà îñóùåñòâëÿåòñÿ íàæàòèåì êëàâèøè \"+\". Óäàëåíèå ýëåìåíòà îñóùåñòâëÿåòñÿ íàæàòèåì êëàâèøè \"-\".\n";
-	cout << "ESC - Âûõîä\n\n";
-	cout << "Óñòàíîâëåí øàã: " << step << endl << endl;
+	cout << "Ð£ÐŸÐ ÐÐ’Ð›Ð•ÐÐ˜Ð•: ÐšÑƒÑ€ÑÐ¾Ñ€Ð¾Ð¼, Ñ Ð¿Ð¾Ð¼Ð¾Ñ‰ÑŒÑŽ ÑÑ‚Ñ€ÐµÐ»Ð¾Ñ‡ÐµÐº, Ð²Ñ‹Ð±Ð¸Ñ€Ð°ÐµÑ‚ÑÑ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚. Ð¨Ð°Ð³ Ð´Ð²Ð¸Ð¶ÐµÐ½Ð¸Ñ ÐºÑƒÑ€ÑÐ¾Ñ€Ð° Ñ€ÐµÐ³ÑƒÐ»Ð¸Ñ€ÑƒÐµÑ‚ÑÑ Ð½Ð°Ð¶Ð°Ñ‚Ð¸ÐµÐ¼ ÐºÐ»Ð°Ð²Ð¸Ñˆ 1-9.\n";
+	cout << "Ð”Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ð¾ÑÑƒÑ‰ÐµÑÑ‚Ð²Ð»ÑÐµÑ‚ÑÑ Ð½Ð°Ð¶Ð°Ñ‚Ð¸ÐµÐ¼ ÐºÐ»Ð°Ð²Ð¸ÑˆÐ¸ \"+\". Ð£Ð´Ð°Ð»ÐµÐ½Ð¸Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ð¾ÑÑƒÑ‰ÐµÑÑ‚Ð²Ð»ÑÐµÑ‚ÑÑ Ð½Ð°Ð¶Ð°Ñ‚Ð¸ÐµÐ¼ ÐºÐ»Ð°Ð²Ð¸ÑˆÐ¸ \"-\".\n";
+	cout << "ESC - Ð’Ñ‹Ñ…Ð¾Ð´\n\n";
+	cout << "Ð£ÑÑ‚Ð°Ð½Ð¾Ð²Ð»ÐµÐ½ ÑˆÐ°Ð³: " << step << endl << endl;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i < n; i++)
 	{
@@ -89,7 +89,7 @@ void Print(int arr[], int cursor[], const int n, int lc_crs, int step)
 void Insert(int *&arr, int &n, int lc_crs)
 {
 	int value;
-	cout << "\nÂâåäèòå äîáîâëÿåìîå çíà÷åíèå: "; cin >> value;
+	cout << "\nÐ’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð¾Ð±Ð¾Ð²Ð»ÑÐµÐ¼Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: "; cin >> value;
 	int *buffer = new int[++n];
 	for (int i = 0; i < n; i++)
 	{
