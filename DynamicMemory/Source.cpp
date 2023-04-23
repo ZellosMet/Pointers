@@ -2,38 +2,53 @@
 using namespace std;
 
 void FillRand(int arr[], const int n);
-void Print(int arr[], const int n);
+void Print(int arr[], int n);
+void PushFront(int *&arr, int &n);
+void PushBack(int *&arr, int &n);
+void Insert(int *&arr, int &n);
+void PopFront(int *&arr, int &n);
+void PopBack(int *&arr, int &n);
+void Erase(int *&arr, int &n);
+
+#define Lesson
+#define HomeWork
+
 
 void main()
 {
 	setlocale(LC_ALL, "ru");
-	int n;
 
+#ifdef Lesson
+	int n;
+	int& rn = n;
 	cout << "Введите размер массива: "; cin >> n;
 	int* arr = new int[n];
 
 	FillRand(arr, n);
-	Print(arr, n);	
-	//Увеличение элементов м ассива
-	int value;
-	cout << "Введите добовляемое значение: "; cin >> value;
-	//1) Создаём буферный массив нужного размера ()
-	int* buffer = new int[n + 1];
-	//2) Копируем все значения в буферный массив
-	for (int i = 0; i < n; i++)
-	{
-		buffer[i] = arr[i];
-	}
-	//3) Удаляем массив
-	delete[] arr;
-	//4) Подменяем адрес исходного массива на новый
-	arr = buffer;
-	//5) Добавить новое значение
-	arr[n] = value;
-	//6) После добовление элемента в массив количество его элементов увеличивается на 1
-	n++;
 	Print(arr, n);
+	//PushFront(arr, rn);
+	//Print(arr, n);
+	//PushBack(arr, rn);
+	//Print(arr, n);
+	Insert(arr, rn);
+	Print(arr, n);
+	//PopBack(arr, rn);
+	//Print(arr, n);
+	//PopFront(arr, rn);
+	//Print(arr, n);
+	//Erase(arr, rn);
+	//Print(arr, n);
+
 	delete[] arr;
+#endif
+
+#ifdef HomeWork
+
+
+
+
+#endif // HomeWork
+
 }
 
 void FillRand(int arr[], const int n)
@@ -48,7 +63,89 @@ void Print(int arr[], const int n)
 {
 	for (int i = 0; i < n; i++)
 	{
-		cout << arr[i] << "\t";
+		cout << "[ " << arr[i] << " ]" << "\t";
 	}
 	cout << endl;
+}
+
+
+void PushFront(int *&arr, int &n)
+{
+	int value;
+	cout << "Введите добовляемое значение: "; cin >> value;
+	int* buffer = new int[++n];
+	for (int i = 0; i < n; i++)
+	{
+		buffer[i+1] = arr[i];
+	}
+	delete[] arr;
+	arr = buffer;
+	arr[0] = value;
+}
+
+void PushBack(int *&arr, int &n)
+{
+	int value;
+	cout << "Введите добовляемое значение: "; cin >> value;
+	int* buffer = new int[++n];	
+	for (int i = 0; i < n-1; i++)
+	{
+		buffer[i] = arr[i];
+	}	
+	delete[] arr;	
+	arr = buffer;
+	arr[n-1] = value;	
+}
+
+void Insert(int *&arr, int &n)
+{
+	int value, ins_element;
+	cout << "Введите порядковый номер элемента для добавления: "; cin >> ins_element;
+	cout << "Введите добовляемое значение: "; cin >> value;
+	int* buffer = new int[++n];
+	for (int i = 0; i < n; i++)
+	{
+		if(i > ins_element) buffer[i] = arr[i-1];
+		else buffer[i] = arr[i];
+	}
+	delete[] arr;
+	arr = buffer;
+	arr[ins_element] = value;
+}
+
+void PopFront(int*& arr, int& n)
+{
+	int* buffer = new int[--n];
+	for (int i = 0; i < n; i++)
+	{
+		buffer[i] = arr[i+1];
+	}
+	delete[] arr;
+	arr = buffer;
+}
+
+void PopBack(int *&arr, int &n)
+{
+	int* buffer = new int[--n];
+	for (int i = 0; i < n; i++)
+	{
+		buffer[i] = arr[i];
+	}
+	delete[] arr;
+	arr = buffer;
+}
+
+void Erase(int*& arr, int& n)
+{
+	int ers_element;
+	cout << "Введите порядковый номер элемента для добавления: "; cin >> ers_element;
+	int* buffer = new int[--n];
+	for (int i = 0; i < n; i++)
+	{
+		if (i > ers_element) 
+		buffer[i] = arr[i+1];
+		else buffer[i] = arr[i];
+	}
+	delete[] arr;
+	arr = buffer;
 }
