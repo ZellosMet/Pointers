@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void FillRand(int arr[], const int n);
@@ -16,7 +16,7 @@ void main()
 
 	int n;
 	int& rn = n;
-	cout << "Ââåäèòå ðàçìåð ìàññèâà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°: "; cin >> n;
 	int* arr = new int[n];
 
 	FillRand(arr, n);
@@ -57,7 +57,7 @@ void Print(int arr[], const int n)
 void PushFront(int *&arr, int &n)
 {
 	int value;
-	cout << "Ââåäèòå äîáîâëÿåìîå çíà÷åíèå: "; cin >> value;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð¾Ð±Ð¾Ð²Ð»ÑÐµÐ¼Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: "; cin >> value;
 	int* buffer = new int[++n];
 	for (int i = 0; i < n; i++)
 	{
@@ -71,7 +71,7 @@ void PushFront(int *&arr, int &n)
 void PushBack(int *&arr, int &n)
 {
 	int value;
-	cout << "Ââåäèòå äîáîâëÿåìîå çíà÷åíèå: "; cin >> value;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð¾Ð±Ð¾Ð²Ð»ÑÐµÐ¼Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: "; cin >> value;
 	int* buffer = new int[++n];	
 	for (int i = 0; i < n-1; i++)
 	{
@@ -85,8 +85,8 @@ void PushBack(int *&arr, int &n)
 void Insert(int *&arr, int &n)
 {
 	int value, ins_element;
-	cout << "Ââåäèòå ïîðÿäêîâûé íîìåð ýëåìåíòà äëÿ äîáàâëåíèÿ: "; cin >> ins_element;
-	cout << "Ââåäèòå äîáîâëÿåìîå çíà÷åíèå: "; cin >> value;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾Ñ€ÑÐ´ÐºÐ¾Ð²Ñ‹Ð¹ Ð½Ð¾Ð¼ÐµÑ€ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ð´Ð»Ñ Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ñ: "; cin >> ins_element;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð¾Ð±Ð¾Ð²Ð»ÑÐµÐ¼Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: "; cin >> value;
 	int* buffer = new int[++n];
 	for (int i = 0; i < n; i++)
 	{
@@ -100,7 +100,7 @@ void Insert(int *&arr, int &n)
 
 void PopFront(int*& arr, int& n)
 {
-	cout << "Áûë óäàë¸í ïåðâûé ýëåìåíò\n";
+	cout << "Ð‘Ñ‹Ð» ÑƒÐ´Ð°Ð»Ñ‘Ð½ Ð¿ÐµÑ€Ð²Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚\n";
 	int* buffer = new int[--n];
 	for (int i = 0; i < n; i++)
 	{
@@ -112,7 +112,7 @@ void PopFront(int*& arr, int& n)
 
 void PopBack(int *&arr, int &n)
 {
-	cout << "Áûë óäàë¸í ïîñëåäíèé ýëåìåíò\n";
+	cout << "Ð‘Ñ‹Ð» ÑƒÐ´Ð°Ð»Ñ‘Ð½ Ð¿Ð¾ÑÐ»ÐµÐ´Ð½Ð¸Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚\n";
 	int* buffer = new int[--n];
 	for (int i = 0; i < n; i++)
 	{
@@ -125,7 +125,7 @@ void PopBack(int *&arr, int &n)
 void Erase(int*& arr, int& n)
 {
 	int ers_element;
-	cout << "Ââåäèòå ïîðÿäêîâûé íîìåð ýëåìåíòà äëÿ óäàëåíèÿ: "; cin >> ers_element;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾Ñ€ÑÐ´ÐºÐ¾Ð²Ñ‹Ð¹ Ð½Ð¾Ð¼ÐµÑ€ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ð´Ð»Ñ ÑƒÐ´Ð°Ð»ÐµÐ½Ð¸Ñ: "; cin >> ers_element;
 	int* buffer = new int[--n];
 	for (int i = 0; i < n; i++)
 	{
