@@ -10,10 +10,17 @@ void PopFront(int *&arr, int &n);
 void PopBack(int *&arr, int &n);
 void Erase(int *&arr, int &n);
 
+void FillRandMatrix(int **arr, const int rows, const int cols);
+void PrintMatrix(int **arr, const int rows, const int cols);
+
+//#define DYNAMIC_MEMORY_1
+#define DYNAMIC_MEMORY_2
+
 void main()
 {
 	setlocale(LC_ALL, "ru");
 
+#ifdef DYNAMIC_MEMORY_1
 	int n;
 	int& rn = n;
 	cout << "Введите размер массива: "; cin >> n;
@@ -35,6 +42,30 @@ void main()
 	Print(arr, n);
 
 	delete[] arr;
+#endif 
+
+#ifdef DYNAMIC_MEMORY_2
+
+	int rows, cols;
+	cout << "Введите количество строк: "; cin >> rows;
+	cout << "Введите количество столбцов: "; cin >> cols;
+
+	int** arr = new int* [rows];
+	for (int i = 0; i < rows; i++) 
+	{
+		arr[i] = new int[cols];
+	}
+
+	FillRandMatrix(arr, rows, cols);
+	PrintMatrix(arr, rows, cols);
+
+	for (int i = 0; i < rows; i++)
+	{
+		delete[] arr[i];
+	}
+	delete[] arr;
+
+#endif 
 }
 
 void FillRand(int arr[], const int n)
@@ -42,6 +73,29 @@ void FillRand(int arr[], const int n)
 	for (int i = 0; i < n; i++)
 	{
 		*(arr + i) = rand() % 100;
+	}
+}
+
+void FillRandMatrix(int** arr, const int rows, const int cols)
+{
+	for (int i = 0; i < rows; i++)
+	{
+		for (int j = 0; j < cols; j++)
+		{
+			arr[i][j] = rand() % 100;
+		}
+	}
+}
+
+void PrintMatrix(int** arr, const int rows, const int cols)
+{
+	for (int i = 0; i < rows; i++)
+	{
+		for (int j = 0; j < cols; j++)
+		{
+			cout << arr[i][j] << "\t";
+		}
+		cout << endl;
 	}
 }
 
@@ -136,3 +190,4 @@ void Erase(int*& arr, int& n)
 	delete[] arr;
 	arr = buffer;
 }
+
