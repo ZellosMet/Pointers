@@ -123,7 +123,7 @@ void PrintMatrix(int **arr, const int rows, const int cols)
 	{
 		for (int j = 0; j < cols; j++)
 		{
-			cout << arr[i][j] << "\t";
+			cout << *(*(arr + i) + j) << "\t";
 		}
 		cout << endl;
 	}
