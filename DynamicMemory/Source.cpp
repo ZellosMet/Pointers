@@ -164,12 +164,7 @@ int **PushRowBack( int **arr, int &rows, const int cols)
 int **InsertRow(int **arr, int &rows, const int cols, int const index)
 {
 	int **buffer = Allocate(rows+1, cols);
-	for (int i = 0; i < rows; i++) 
-		for (int j = 0; j < cols; j++)
-		{
-			if(i>=index) buffer[i + 1][j] = arr[i][j];
-			else buffer[i][j] = arr[i][j];
-		}
+	for (int i = 0; i < rows; i++) for (int j = 0; j < cols; j++) i>=index ? buffer[i + 1][j] = arr[i][j] : buffer[i][j] = arr[i][j];
 	Clear(arr, rows++, cols);
 	return buffer;
 }
@@ -190,12 +185,7 @@ int **PopRowBack(int **arr, int &rows, const int cols)
 int **EraseRow(int **arr, int &rows, const int cols, int const index)
 {
 	int **buffer = Allocate(--rows, cols);
-	for (int i = 0; i < rows; i++)
-		for (int j = 0; j < cols; j++)
-		{
-			if (i >= index) buffer[i][j] = arr[i+1][j];
-			else buffer[i][j] = arr[i][j];
-		}
+	for (int i = 0; i < rows; i++) for (int j = 0; j < cols; j++) i >= index? buffer[i][j] = arr[i+1][j] : buffer[i][j] = arr[i][j];
 	Clear(arr, rows, cols);
 	return buffer;
 }
@@ -216,12 +206,7 @@ int **PushColsBack(int **arr, const int rows, int &cols)
 int **InsertCols(int **arr, const int rows, int &cols, int const index)
 {
 	int **buffer = Allocate(rows, cols + 1);
-	for (int i = 0; i < rows; i++)
-		for (int j = 0; j < cols; j++)
-		{
-			if (j >= index) buffer[i][j + 1] = arr[i][j];
-			else buffer[i][j] = arr[i][j];
-		}
+	for (int i = 0; i < rows; i++) for (int j = 0; j < cols; j++) j >= index? buffer[i][j + 1] = arr[i][j] : buffer[i][j] = arr[i][j];
 	Clear(arr, rows, cols++);
 	return buffer;
 }
@@ -242,12 +227,7 @@ int **PopColsBack(int **arr, const int rows, int &cols)
 int **EraseCols(int **arr, const int rows, int &cols, int const index)
 {
 	int** buffer = Allocate(rows, --cols);
-	for (int i = 0; i < rows; i++)
-		for (int j = 0; j < cols; j++)
-		{
-			if (j >= index) buffer[i][j] = arr[i][j+1];
-			else buffer[i][j] = arr[i][j];
-		}
+	for (int i = 0; i < rows; i++) for (int j = 0; j < cols; j++) j >= index ? buffer[i][j] = arr[i][j+1] : buffer[i][j] = arr[i][j];
 	Clear(arr, rows, cols);
 	return buffer;
 }
