@@ -106,7 +106,7 @@ void main()
 	Clear(arr, rows, cols);
 #endif 
 }
-//Реализвция для атриц
+//Реализвция для матриц
 void FillRandMatrix(int **arr, const int rows, const int cols)
 {
 	for (int i = 0; i < rows; i++)
