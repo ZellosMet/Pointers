@@ -78,28 +78,28 @@ void main()
 	PrintMatrix(arr, rows, cols);
 	arr = PushRowFront(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
-	cout << "Введите индекс строки: "; cin >> index;
+	cout << "Введите индекс строки для добовления: "; cin >> index;
 	arr = InsertRow(arr, rows, cols, index);
 	PrintMatrix(arr, rows, cols);
 	arr = PopRowBack(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
 	arr = PopRowFront(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
-	cout << "Введите индекс строки: "; cin >> index;
+	cout << "Введите индекс строки для удаления: "; cin >> index;
 	arr = EraseRow(arr, rows, cols, index);
 	PrintMatrix(arr, rows, cols);
 	arr = PushColsBack(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
 	arr = PushColsFront(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
-	cout << "Введите индекс строки: "; cin >> index;
+	cout << "Введите индекс столбца для добавления: "; cin >> index;
 	arr = InsertCols(arr, rows, cols, index);
 	PrintMatrix(arr, rows, cols);
 	arr = PopColsBack(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
 	arr = PopColsFront(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
-	cout << "Введите индекс строки: "; cin >> index;	
+	cout << "Введите индекс столбца для удаления: "; cin >> index;	
 	arr = EraseCols(arr, rows, cols, index);
 	PrintMatrix(arr, rows, cols);
 
@@ -132,18 +132,12 @@ void PrintMatrix(int **arr, const int rows, const int cols)
 int **Allocate(const int rows, const int cols)
 {
 	int** arr = new int* [rows]{};
-	for (int i = 0; i < rows; i++)
-	{
-		arr[i] = new int[cols]{};
-	}
+	for (int i = 0; i < rows; i++) arr[i] = new int[cols]{};
 	return arr;
 }
 void Clear(int **arr, const int rows, const int cols)
 {
-	for (int i = 0; i < rows; i++)
-	{
-		delete[] arr[i];
-	}
+	for (int i = 0; i < rows; i++) delete[] arr[i];
 	delete[] arr;
 }
 
