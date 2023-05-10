@@ -109,22 +109,13 @@ void main()
 //Реализвция для матриц
 void FillRandMatrix(int **arr, const int rows, const int cols)
 {
-	for (int i = 0; i < rows; i++)
-	{
-		for (int j = 0; j < cols; j++)
-		{
-			arr[i][j] = rand() % 100;
-		}
-	}
+	for (int i = 0; i < rows; i++) for (int j = 0; j < cols; j++) arr[i][j] = rand() % 100;
 }
 void PrintMatrix(int **arr, const int rows, const int cols)
 {
 	for (int i = 0; i < rows; i++)
 	{
-		for (int j = 0; j < cols; j++)
-		{
-			cout << *(*(arr + i) + j) << "\t";
-		}
+		for (int j = 0; j < cols; j++) cout << *(*(arr + i) + j) << "\t";
 		cout << endl;
 	}
 	cout << endl;
