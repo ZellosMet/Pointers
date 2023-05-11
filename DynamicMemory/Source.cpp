@@ -115,7 +115,7 @@ void PrintMatrix(int **arr, const int rows, const int cols)
 {
 	for (int i = 0; i < rows; i++)
 	{
-		for (int j = 0; j < cols; j++) cout << arr[i][j] << "\t";
+		for (int j = 0; j < cols; j++) cout << *(*(arr + i) + j) << "\t";
 		cout << endl;
 	}
 	cout << endl;
@@ -128,7 +128,8 @@ int **Allocate(const int rows, const int cols)
 }
 void Clear(int **arr, const int rows, const int cols)
 {
-	for (int i = 0; i < rows; i++) delete[] arr[i];
+	for (int i = 0; i < rows; i++) 
+		delete[] arr[i];
 	delete[] arr;
 }
 
@@ -216,7 +217,7 @@ void PopColsFront(int **arr, const int rows, int &cols)
 	{
 		int *buffer = new int[cols - 1] {};
 		for (int j = 0; j < cols-1; j++) buffer[j] = arr[i][j+1];
-		//delete[] arr[i]; //????
+		//delete[] arr[i]; //???
 		arr[i] = buffer;
 	}
 	cols--;
@@ -237,8 +238,9 @@ void EraseCols(int **arr, const int rows, int &cols, int const index)
 	for (int i = 0; i < rows; i++)
 	{
 		int* buffer = new int[cols - 1] {};
-		for (int j = 0; j < cols-1; j++) j >= index ? buffer[j] = arr[i][j+1] : buffer[j] = arr[i][j];
-		delete[] arr[i];
+		for (int j = 0; j < cols-1; j++) 
+			j >= index ? buffer[j] = arr[i][j+1] : buffer[j] = arr[i][j];
+		//delete[] arr[i]; //???
 		arr[i] = buffer;
 	}
 	cols--;
