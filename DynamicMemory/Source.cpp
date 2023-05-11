@@ -216,7 +216,7 @@ void PopColsFront(int **arr, const int rows, int &cols)
 	{
 		int *buffer = new int[cols - 1] {};
 		for (int j = 0; j < cols-1; j++) buffer[j] = arr[i][j+1];
-		//delete[] arr[i]; //???
+		//delete[] arr[i]; //????
 		arr[i] = buffer;
 	}
 	cols--;
