@@ -11,7 +11,7 @@ int *PopBack(int *arr, int &n);
 int *Erase(int *arr, int &n, const int index);
 //Функции для матриц
 int **Allocate(const int rows, const int cols);
-void Clear(int **arr, const int rows, const int cols);
+void Clear(int **arr, const int rows);
 void FillRandMatrix(int **arr, const int rows, const int cols);
 void PrintMatrix(int **arr, const int rows, const int cols);
 
@@ -103,7 +103,7 @@ void main()
 	EraseCols(arr, rows, cols, index);
 	PrintMatrix(arr, rows, cols);
 
-	Clear(arr, rows, cols);
+	Clear(arr, rows);
 #endif 
 }
 //Реализвция для матриц
@@ -126,7 +126,7 @@ int **Allocate(const int rows, const int cols)
 	for (int i = 0; i < rows; i++) arr[i] = new int[cols]{};
 	return arr;
 }
-void Clear(int **arr, const int rows, const int cols)
+void Clear(int **arr, const int rows)
 {
 	for (int i = 0; i < rows; i++) 
 		delete[] arr[i];
@@ -217,7 +217,7 @@ void PopColsFront(int **arr, const int rows, int &cols)
 	{
 		int *buffer = new int[cols - 1] {};
 		for (int j = 0; j < cols-1; j++) buffer[j] = arr[i][j+1];
-		//delete[] arr[i]; //???
+		delete[] arr[i];
 		arr[i] = buffer;
 	}
 	cols--;
@@ -227,7 +227,7 @@ void PopColsBack(int **arr, const int rows, int &cols)
 	for (int i = 0; i < rows; i++)
 	{
 		int* buffer = new int[cols - 1] {};
-		for (int j = 0; j < cols; j++) buffer[j] = arr[i][j];
+		for (int j = 0; j < cols-1; j++) buffer[j] = arr[i][j];
 		delete[] arr[i];
 		arr[i] = buffer;
 	}
@@ -240,7 +240,7 @@ void EraseCols(int **arr, const int rows, int &cols, int const index)
 		int* buffer = new int[cols - 1] {};
 		for (int j = 0; j < cols-1; j++) 
 			j >= index ? buffer[j] = arr[i][j+1] : buffer[j] = arr[i][j];
-		//delete[] arr[i]; //???
+		delete[] arr[i];
 		arr[i] = buffer;
 	}
 	cols--;
