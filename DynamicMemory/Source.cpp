@@ -15,17 +15,17 @@ void Clear(int **arr, const int rows);
 void FillRandMatrix(int **arr, const int rows, const int cols);
 void PrintMatrix(int **arr, const int rows, const int cols);
 
-void PushRowBack(int **&arr, int &rows, const int cols);
-void PushRowFront(int **&arr, int &rows, const int cols);
-void InsertRow(int **&arr, int &rows, const int cols, int const index);
-void PopRowBack(int **&arr, int &rows, const int cols);
-void PopRowFront(int **&arr, int &rows, const int cols);
-void EraseRow(int **&arr, int &rows, const int cols, int const index);
+int **PushRowBack(int **arr, int &rows, const int cols);
+int **PushRowFront(int **arr, int &rows, const int cols);
+int **InsertRow(int **arr, int &rows, const int cols, int const index);
+int **PopRowBack(int **arr, int &rows, const int cols);
+int **PopRowFront(int **arr, int &rows, const int cols);
+int **EraseRow(int **arr, int &rows, const int cols, int const index);
 void PushColsBack(int **arr, const int rows, int &cols);
 void PushColsFront(int **arr, const int rows, int &cols);
 void InsertCols(int **arr, const int rows, int &cols, int const index);
 void PopColsBack(int **arr, const int rows, int &cols);
-void PopColsFront(int **arr, const int rows, int &cols); //???
+void PopColsFront(int **arr, const int rows, int &cols);
 void EraseCols(int **arr, const int rows, int &cols, int const index);
 
 //#define DYNAMIC_MEMORY_1
@@ -74,19 +74,19 @@ void main()
 	FillRandMatrix(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
 
-	PushRowBack(arr, rows, cols);
+	arr = PushRowBack(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
-	PushRowFront(arr, rows, cols);
+	arr = PushRowFront(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
 	cout << "Введите индекс строки для добовления: "; cin >> index;
-	InsertRow(arr, rows, cols, index);
+	arr = InsertRow(arr, rows, cols, index);
 	PrintMatrix(arr, rows, cols);
-	PopRowBack(arr, rows, cols);
+	arr = PopRowBack(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
-	PopRowFront(arr, rows, cols);
+	arr = PopRowFront(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
 	cout << "Введите индекс строки для удаления: "; cin >> index;
-	EraseRow(arr, rows, cols, index);
+	arr = EraseRow(arr, rows, cols, index);
 	PrintMatrix(arr, rows, cols);
 	PushColsBack(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
@@ -133,50 +133,81 @@ void Clear(int **arr, const int rows)
 	delete[] arr;
 }
 
-void PushRowFront(int **&arr, int &rows, const int cols)
+int **PushRowFront(int **arr, int &rows, const int cols)
 {
-	int** buffer = Allocate(++rows, cols);
-	for (int i = 0; i < rows - 1; i++) buffer[i+1] = arr[i];
+	int **buffer = new int *[rows + 1];
+	for (int i = 0; i < rows; i++)
+
+	{
+		buffer[i + 1] = arr[i];
+	}
 	delete[] arr;
 	arr = buffer;
 	arr[0] = new int[cols] {};
+	rows++;
+	return arr;
 }
-void PushRowBack(int **&arr, int &rows, const int cols)
+int **PushRowBack(int **arr, int &rows, const int cols)
 {
-	int **buffer = Allocate(++rows, cols);	
-	for (int i = 0; i < rows-1; i++) buffer[i] = arr[i];
+	int** buffer = new int* [rows + 1];
+	for (int i = 0; i < rows; i++)
+	{
+		buffer[i] = arr[i];
+	}
 	delete[] arr;
 	arr = buffer;
-	arr[rows-1] = new int[cols]{};
+	arr[rows] = new int[cols]{};
+	rows++;
+	return arr;
 }
-void InsertRow(int **&arr, int &rows, const int cols, int const index)
+int **InsertRow(int **arr, int &rows, const int cols, int const index)
 {
-	int** buffer = Allocate(++rows, cols);
-	for (int i = 0; i < rows - 1; i++) i >= index ? buffer[i + 1] = arr[i] : buffer[i] = arr[i];
+	int** buffer = new int* [rows + 1];
+	for (int i = 0; i < rows; i++)
+	{
+		i >= index ? buffer[i + 1] = arr[i] : buffer[i] = arr[i];
+	}
 	delete[] arr;
 	arr = buffer;
 	arr[index] = new int[cols] {};
+	rows++;
+	return arr;
 }
-void PopRowFront(int **&arr, int &rows, const int cols)
+int **PopRowFront(int **arr, int &rows, const int cols)
 {
-	int** buffer = Allocate(--rows, cols);
-	for (int i = 0; i < rows; i++) buffer[i] = arr[i + 1];
+	int** buffer = new int* [rows - 1];
+	for (int i = 0; i < rows-1; i++) 
+	{	
+		buffer[i] = arr[i + 1];
+	}
 	delete[] arr;
 	arr = buffer;
+	rows--;
+	return arr;
 }
-void PopRowBack(int **&arr, int &rows, const int cols)
+int **PopRowBack(int **arr, int &rows, const int cols)
 {
-	int** buffer = Allocate(--rows, cols);
-	for (int i = 0; i < rows; i++) buffer[i] = arr[i];
+	int** buffer = new int* [rows - 1];
+	for (int i = 0; i < rows-1; i++)
+	{
+		buffer[i] = arr[i];
+	}
 	delete[] arr;
 	arr = buffer;
+	rows--;
+	return arr;
 }
-void EraseRow(int **&arr, int &rows, const int cols, int const index)
+int **EraseRow(int **arr, int& rows, const int cols, int const index)
 {
-	int** buffer = Allocate(--rows, cols);
-	for (int i = 0; i < rows; i++) i >= index ? buffer[i] = arr[i+1] : buffer[i] = arr[i];
+	int** buffer = new int* [rows - 1];
+	for (int i = 0; i < rows-1; i++)
+	{	
+		i >= index ? buffer[i] = arr[i + 1] : buffer[i] = arr[i];
+	}
 	delete[] arr;
 	arr = buffer;
+	rows--;
+	return arr;
 }
 void PushColsFront(int **arr, const int rows, int& cols)
 {
