@@ -35,7 +35,7 @@ template <typename T> void EraseCols(T** arr, const int rows, int& cols, int con
 //#define DYNAMIC_MEMORY_1
 #define DYNAMIC_MEMORY_2
 
-typedef double DataType; //Дефайн для типов данных
+typedef double DataType; //Дефайн для типов данных(сейчас double)
 
 void main()
 {
