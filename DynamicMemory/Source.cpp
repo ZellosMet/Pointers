@@ -17,7 +17,7 @@ void FillRandMatrix(int** arr, const int rows, const int cols);
 void FillRandMatrix(double** arr, const int rows, const int cols);
 void FillRandMatrix(char** arr, const int rows, const int cols);
 
-template <typename T> void Allocate(T **&arr, const int rows, const int cols);
+template <typename T> T **Allocate(const int rows, const int cols);
 
 template <typename T> void PrintMatrix(T** arr, const int rows, const int cols);
 template <typename T> void Clear(T** arr, const int rows);
@@ -38,19 +38,18 @@ template <typename T> void EraseCols(T** arr, const int rows, int& cols, int con
 //#define DYNAMIC_MEMORY_1
 #define DYNAMIC_MEMORY_2
 
+typedef double DataType; //Дефайн для типов данных
+
 void main()
 {
 	setlocale(LC_ALL, "ru");
 
 #ifdef DYNAMIC_MEMORY_1
+
 	int n, index;
-	//int value;
-	//double value;
-	char value;
+	DataType value;
 	cout << "Введите размер массива: "; cin >> n;
-	//int *arr = new int[n];
-	//double *arr = new double[n];
-	char* arr = new char[n];
+	DataType *arr = new DataType[n];
 
 	FillRand(arr, n);
 	Print(arr, n);
@@ -81,10 +80,7 @@ void main()
 	int rows, cols, index;
 
 	cout << "Введите размер массива(строки и колонки): "; cin >> rows >> cols;
-	int** arr = nullptr;
-	//double **arr = nullptr;
-	//char **arr = nullptr;
-	Allocate(arr, rows, cols);
+	DataType **arr = Allocate<DataType>(rows, cols);	
 
 	FillRandMatrix(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
@@ -139,7 +135,7 @@ void FillRandMatrix(char** arr, const int rows, const int cols)
 {
 	for (int i = 0; i < rows; i++) for (int j = 0; j < cols; j++) arr[i][j] = 65 + rand() % 26;
 }
-template <typename T> void PrintMatrix(T** arr, const int rows, const int cols)
+template <typename T> void PrintMatrix(T **arr, const int rows, const int cols)
 {
 	for (int i = 0; i < rows; i++)
 	{
@@ -149,10 +145,11 @@ template <typename T> void PrintMatrix(T** arr, const int rows, const int cols)
 	cout << delimiter;
 }
 
-template <typename T> void Allocate(T **&arr, const int rows, const int cols)
+template <typename T> T **Allocate(const int rows, const int cols)
 {
-	arr = new T * [rows] {};
+	T **arr = new T *[rows] {};
 	for (int i = 0; i < rows; i++) arr[i] = new T[cols]{};
+	return arr;
 }
 
 template <typename T> void Clear(T** arr, const int rows)
