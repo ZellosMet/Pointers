@@ -157,7 +157,6 @@ template <typename T > T** PushRowFront(T** arr, int& rows, const int cols)
 {
 	T** buffer = new T * [rows + 1];
 	for (int i = 0; i < rows; i++)
-
 	{
 		buffer[i + 1] = arr[i];
 	}
