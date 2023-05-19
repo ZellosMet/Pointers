@@ -11,14 +11,11 @@ template <typename T> T* Insert(T* arr, int& n, const int index, const T value);
 template <typename T> T* PopFront(T* arr, int& n);
 template <typename T> T* PopBack(T* arr, int& n);
 template <typename T> T* Erase(T* arr, int& n, const int index);
-
 //Функции для матриц
 void FillRandMatrix(int** arr, const int rows, const int cols);
 void FillRandMatrix(double** arr, const int rows, const int cols);
 void FillRandMatrix(char** arr, const int rows, const int cols);
-
 template <typename T> T **Allocate(const int rows, const int cols);
-
 template <typename T> void PrintMatrix(T** arr, const int rows, const int cols);
 template <typename T> void Clear(T** arr, const int rows);
 template <typename T> T** PushRowBack(T** arr, int& rows, const int cols);
@@ -144,14 +141,12 @@ template <typename T> void PrintMatrix(T **arr, const int rows, const int cols)
 	}
 	cout << delimiter;
 }
-
 template <typename T> T **Allocate(const int rows, const int cols)
 {
 	T **arr = new T *[rows] {};
 	for (int i = 0; i < rows; i++) arr[i] = new T[cols]{};
 	return arr;
 }
-
 template <typename T> void Clear(T** arr, const int rows)
 {
 	for (int i = 0; i < rows; i++)
