@@ -17,7 +17,7 @@ void FillRandMatrix(int** arr, const int rows, const int cols);
 void FillRandMatrix(double** arr, const int rows, const int cols);
 void FillRandMatrix(char** arr, const int rows, const int cols);
 
-template <typename T> void** Allocate(T**& arr, const int rows, const int cols); //???
+template <typename T> void** Allocate(T**& arr, const int rows, const int cols);
 
 template <typename T> void PrintMatrix(T** arr, const int rows, const int cols);
 template <typename T> void Clear(T** arr, const int rows);
@@ -149,7 +149,7 @@ template <typename T> void PrintMatrix(T** arr, const int rows, const int cols)
 	cout << delimiter;
 }
 
-template <typename T> void** Allocate(T**& arr, const int rows, const int cols) //????
+template <typename T> void** Allocate(T**& arr, const int rows, const int cols)
 {
 	arr = new T * [rows] {};
 	for (int i = 0; i < rows; i++) arr[i] = new T[cols]{};
