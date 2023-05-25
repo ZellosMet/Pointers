@@ -1,0 +1,2356 @@
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.1           c4-ad-34-4d-3c-57     dynamic   
+
+Pinging 192.168.0.1 with 32 bytes of data:
+Reply from 192.168.0.1: bytes=32 time<1ms TTL=64
+Reply from 192.168.0.1: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.0.1:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.2 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.2:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.3 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.3:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.4           14-da-e9-9c-3d-50     dynamic   
+
+Pinging 192.168.0.4 with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.0.4:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.5           40-b0-76-43-34-46     dynamic   
+
+Pinging 192.168.0.5 with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.0.5:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.6           70-8b-cd-a2-96-eb     dynamic   
+
+Pinging 192.168.0.6 with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.0.6:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.7           a8-5e-45-30-93-5a     dynamic   
+
+Pinging 192.168.0.7 with 32 bytes of data:
+Reply from 192.168.0.7: bytes=32 time<1ms TTL=128
+Reply from 192.168.0.7: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.0.7:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.8 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.8:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.9 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.9:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.10 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.10:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.11          d8-5e-d3-31-8c-12     dynamic   
+
+Pinging 192.168.0.11 with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.0.11:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.12 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.12:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.13 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.13:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.14 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.14:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.15          e0-d5-5e-93-2a-ef     dynamic   
+
+Pinging 192.168.0.15 with 32 bytes of data:
+Reply from 192.168.0.15: bytes=32 time=1ms TTL=128
+Reply from 192.168.0.15: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.0.15:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.16 with 32 bytes of data:
+Reply from 192.168.0.16: bytes=32 time<1ms TTL=128
+Reply from 192.168.0.16: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.0.16:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.17          60-45-cb-a7-56-e5     dynamic   
+
+Pinging 192.168.0.17 with 32 bytes of data:
+Reply from 192.168.0.17: bytes=32 time=1ms TTL=128
+Reply from 192.168.0.17: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.0.17:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.18 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.18:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.19 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.19:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.20 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.20:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.21 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.21:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.22 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.22:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.23 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.23:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.24 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.24:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.25          a8-a1-59-4a-02-43     dynamic   
+
+Pinging 192.168.0.25 with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.0.25:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.26 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.26:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.27 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.27:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.28 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.28:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.29 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.29:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.30 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.30:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.31          b4-4c-3b-a4-97-41     dynamic   
+
+Pinging 192.168.0.31 with 32 bytes of data:
+Reply from 192.168.0.31: bytes=32 time=11ms TTL=64
+Reply from 192.168.0.31: bytes=32 time=3ms TTL=64
+
+Ping statistics for 192.168.0.31:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 11ms, Average = 7ms
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.32          4c-ed-fb-be-eb-76     dynamic   
+
+Pinging 192.168.0.32 with 32 bytes of data:
+Reply from 192.168.0.32: bytes=32 time<1ms TTL=128
+Reply from 192.168.0.32: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.0.32:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.33 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.33:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.34 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.34:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.35 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.35:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.36 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.36:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.37 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.37:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.38          24-4b-fe-8c-5c-5f     dynamic   
+
+Pinging 192.168.0.38 with 32 bytes of data:
+Reply from 192.168.0.38: bytes=32 time<1ms TTL=128
+Reply from 192.168.0.38: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.0.38:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.39 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.39:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.40 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.40:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.41 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.41:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.42 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.42:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.43 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.43:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.44 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.44:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.45 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.45:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.46 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.46:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.47 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.47:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.48 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.48:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.49 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.49:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.50 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.50:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.51 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.51:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.52 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.52:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.53 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.53:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.54 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.54:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.55          00-17-c8-b7-ba-19     dynamic   
+
+Pinging 192.168.0.55 with 32 bytes of data:
+Reply from 192.168.0.55: bytes=32 time<1ms TTL=255
+Reply from 192.168.0.55: bytes=32 time<1ms TTL=255
+
+Ping statistics for 192.168.0.55:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.56 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.56:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.57 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.57:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.58 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.58:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.59 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.59:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.60 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.60:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.61 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.61:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.62 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.62:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.63 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.63:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.64 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.64:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.65 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.65:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.66 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.66:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.67 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.67:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.68 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.68:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.69 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.69:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.70 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.70:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.71 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.71:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.72 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.72:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.73 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.73:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.74 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.74:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.75 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.75:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.76 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.76:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.77 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.77:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.78 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.78:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.79 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.79:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.80 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.80:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.81 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.81:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.82 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.82:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.83 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.83:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.84 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.84:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.85 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.85:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.86 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.86:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.87 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.87:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.88 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.88:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.89 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.89:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.90 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.90:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.91 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.91:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.92 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.92:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.93 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.93:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.94 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.94:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.95 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.95:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.96 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.96:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.97 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.97:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.98 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.98:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.99 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.99:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.100 with 32 bytes of data:
+Reply from 192.168.0.100: bytes=32 time<1ms TTL=128
+Reply from 192.168.0.100: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.0.100:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.101 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.101:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.102 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.102:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.103 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.103:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.104 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.104:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.105 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.105:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.106 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.106:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.107 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.107:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.108 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.108:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.109 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.109:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.110 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.110:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.111 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.111:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.112 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.112:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.113 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.113:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.114 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.114:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.115 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.115:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.116 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.116:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.117 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.117:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.118 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.118:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.119 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.119:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.120 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.120:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.121 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.121:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.122 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.122:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.123 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.123:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.124 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.124:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.125 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.125:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.126 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.126:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.127 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.127:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.128 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.128:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.129 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.129:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.130 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.130:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.131 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.131:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.132 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.132:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.133 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.133:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.134         4c-ed-fb-bf-20-7d     dynamic   
+
+Pinging 192.168.0.134 with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.0.134:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.135 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.135:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.136 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.136:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.137 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.137:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.138 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.138:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.139 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.139:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.140 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.140:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.141 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.141:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.142 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.142:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.143 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.143:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.144 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.144:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.145 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.145:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.146 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.146:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.147 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.147:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.148 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.148:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.149 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.149:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.150         70-85-c2-b2-42-dd     dynamic   
+
+Pinging 192.168.0.150 with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.0.150:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.151 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.151:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.152 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.152:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.153 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.153:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.154 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.154:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.155 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.155:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.156 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.156:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.157 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.157:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.158 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.158:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.159 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.159:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.160 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.160:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.161 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.161:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.162 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.162:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.163 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.163:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.164 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.164:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.165 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.165:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.166 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.166:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.167 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.167:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.168 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.168:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.169 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.169:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.170 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.170:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.171 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.171:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.172 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.172:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.173 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.173:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.174 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.174:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.175 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.175:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.176 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.176:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.177 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.177:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.178 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.178:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.179 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.179:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.180 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.180:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.181 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.181:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.182 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.182:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.183 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.183:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.184 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.184:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.185 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.185:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.186 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.186:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.187 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.187:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.188 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.188:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.189 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.189:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.190 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.190:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.191 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.191:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.192 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.192:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.193 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.193:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.194 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.194:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.195 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.195:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.196 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.196:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.197 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.197:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.198 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.198:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.199 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.199:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.200 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.200:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.201 with 32 bytes of data:
+Reply from 192.168.0.201: bytes=32 time<1ms TTL=64
+Reply from 192.168.0.201: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.0.201:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.202 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.202:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.203 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.203:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.204 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.204:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.205 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.205:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.206 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.206:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.207 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.207:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.208 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.208:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.209 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.209:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.210         ac-b9-2f-49-4d-15     dynamic   
+
+Pinging 192.168.0.210 with 32 bytes of data:
+Reply from 192.168.0.210: bytes=32 time<1ms TTL=64
+Reply from 192.168.0.210: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.0.210:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.211 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.211:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.212 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.212:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.213 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.213:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.214 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.214:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.215 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.215:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.216 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.216:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.217 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.217:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.218 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.218:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.219 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.219:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.220 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.220:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.221 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.221:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.222 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.222:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.223 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.223:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.224 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.224:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.225 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.225:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.226 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.226:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.227 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.227:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.228 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.228:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.229 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.229:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.230 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.230:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.231 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.231:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.232 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.232:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.233 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.233:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.234         f0-2f-74-c9-95-9f     dynamic   
+
+Pinging 192.168.0.234 with 32 bytes of data:
+Reply from 192.168.0.234: bytes=32 time=1ms TTL=128
+Reply from 192.168.0.234: bytes=32 time<1ms TTL=128
+
+Ping statistics for 192.168.0.234:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 1ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.235 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.235:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.236 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.236:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.237 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.237:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.238 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.238:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.239 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.239:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.240         ac-b9-2f-49-4e-35     dynamic   
+
+Pinging 192.168.0.240 with 32 bytes of data:
+Reply from 192.168.0.240: bytes=32 time<1ms TTL=64
+Reply from 192.168.0.240: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.0.240:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.241         ac-b9-2f-49-4e-4d     dynamic   
+
+Pinging 192.168.0.241 with 32 bytes of data:
+Reply from 192.168.0.241: bytes=32 time<1ms TTL=64
+Reply from 192.168.0.241: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.0.241:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+No ARP Entries Found.
+
+Pinging 192.168.0.242 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.242:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.243 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.243:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.244 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.244:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.245 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.245:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.246 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.246:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.247 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.247:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.248 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.248:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.249 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.249:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+Interface: 192.168.0.16 --- 0x11
+  Internet Address      Physical Address      Type
+  192.168.0.250         b4-2e-99-6b-37-2d     dynamic   
+
+Pinging 192.168.0.250 with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 192.168.0.250:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.251 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.251:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.252 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.252:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.253 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.253:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
+
+No ARP Entries Found.
+
+Pinging 192.168.0.254 with 32 bytes of data:
+Reply from 192.168.0.16: Destination host unreachable.
+Reply from 192.168.0.16: Destination host unreachable.
+
+Ping statistics for 192.168.0.254:
+    Packets: Sent = 2, Received = 2, Lost = 0 (0% loss),
