@@ -181,10 +181,7 @@ template <typename T > T** PopRowBack(T** arr, int& rows, const int cols)
 }
 template <typename T > T** EraseRow(T** arr, int& rows, const int cols, int const index)
 {
-	T** buffer = new T * [rows - 1];
-	for (int i = 0; i < rows; i++) i >= index ? buffer[i] = arr[i + 1] : buffer[i] = arr[i];
-	delete[] arr;
-	return buffer;
+	return Erase(arr, rows, index);
 }
 template <typename T> void PushColsFront(T** arr, const int rows, int& cols)
 {
@@ -206,25 +203,21 @@ template <typename T> void PushColsBack(T** arr, const int rows, int& cols)
 }
 template <typename T> void InsertCols(T** arr, const int rows, int& cols, int const index)
 {
-	cols++;
 	for (int i = 0; i < rows; i++)
 	{
-		T* buffer = Allocate<T>(cols);
-		for (int j = 0; j < cols - 1; j++) j >= index ? buffer[j + 1] = arr[i][j] : buffer[j] = arr[i][j];
-		delete[] arr[i];
-		arr[i] = buffer;
+		arr[i] = Insert(arr[i], cols, index, T());
+		cols--;
 	}
+	cols++;
 }
 template <typename T> void PopColsFront(T** arr, const int rows, int& cols)
 {
-	cols--;
 	for (int i = 0; i < rows; i++)
 	{
-		T* buffer = Allocate<T>(cols);
-		for (int j = 0; j < cols; j++) buffer[j] = arr[i][j + 1];
-		delete[] arr[i];
-		arr[i] = buffer;
+		arr[i] = PopFront(arr[i], cols);
+		cols++;
 	}
+	cols--;
 }
 template <typename T> void PopColsBack(T** arr, const int rows, int& cols)
 {
@@ -237,14 +230,12 @@ template <typename T> void PopColsBack(T** arr, const int rows, int& cols)
 }
 template <typename T> void EraseCols(T** arr, const int rows, int& cols, int const index)
 {
-	cols--;
 	for (int i = 0; i < rows; i++)
 	{
-		T* buffer = Allocate<T>(cols);
-		for (int j = 0; j < cols; j++) j >= index ? buffer[j] = arr[i][j + 1] : buffer[j] = arr[i][j];
-		delete[] arr[i];
-		arr[i] = buffer;
+		arr[i] = Erase(arr[i], cols, index);
+		cols++;
 	}
+	cols--;
 }
 //Реализация для линеек
 void FillRand(int arr[], const int n)
